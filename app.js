@@ -12,5 +12,5 @@ app.get("/download", (req,res,next)=>{
 })
 
 app.listen(PORT, ()=>{
-    console.log("server listening at port 3000")
+    console.log(`server listening at port ${PORT}`)
 })
